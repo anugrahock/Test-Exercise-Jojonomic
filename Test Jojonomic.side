@@ -1,0 +1,305 @@
+{
+  "id": "5d2fad11-cf85-4d87-863e-fc9897cbb603",
+  "version": "2.0",
+  "name": "Test Jojonomic",
+  "url": "https://www.service.nsw.gov.au",
+  "tests": [{
+    "id": "39891e3c-e3d7-45ed-b590-805b3f85a530",
+    "name": "Sydney 2000",
+    "commands": [{
+      "id": "91d71d93-fda1-4950-9c44-adddaa7dddd9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "781c7dce-8414-4aab-ac61-fa4b4487f085",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df3fa86e-ef67-4feb-8fcd-ffcd1ee090ce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='homeautosuggestsYxEnjwhREs']/input",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='homeautosuggestsYxEnjwhREs']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc78c79-955c-49de-aac0-98d5aebdd9af",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='homeautosuggestsYxEnjwhREs']/input",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=(//input[@name='q'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='homeautosuggestsYxEnjwhREs']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Apply for a number plate"
+    }, {
+      "id": "87a3cb7a-0c32-4b69-90fd-98ff05809cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.personalised-variant:nth-child(1) .button",
+      "targets": [
+        ["css=.personalised-variant:nth-child(1) .button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='block-content']/article/section/div/div/header/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c8e682-5a8a-4eab-a1ad-153569abc6bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,106)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8290b5de-918f-445a-b924-1971c972bf79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find locations",
+      "targets": [
+        ["linkText=Find locations", "linkText"],
+        ["css=.MainNav__list-peZtddYtxn > .NavLink__listItem-VYVwsaNaTG:nth-child(4) > .NavLink__link-M-HSy9SYcc", "css:finder"],
+        ["xpath=//a[contains(text(),'Find locations')]", "xpath:link"],
+        ["xpath=//div[@id='global-header']/div/header/div[2]/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.service.nsw.gov.au/service-centre')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "470b00e3-945c-4764-ab3b-a79a4dd07a37",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "    Find a Service NSW location   ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a3f8b1a-fdf6-4f71-886c-20790ab3e9da",
+      "comment": "",
+      "command": "click",
+      "target": "id=locatorTextSearch",
+      "targets": [
+        ["id=locatorTextSearch", "id"],
+        ["css=#locatorTextSearch", "css:finder"],
+        ["xpath=//input[@id='locatorTextSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b50d0b1e-5e9c-40ee-9aed-99ec9acaa6e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,269.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20cc9536-d1b2-427b-b98a-8a1d593c79d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=locatorTextSearch",
+      "targets": [
+        ["id=locatorTextSearch", "id"],
+        ["css=#locatorTextSearch", "css:finder"],
+        ["xpath=//input[@id='locatorTextSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Sydney 2000"
+    }, {
+      "id": "206ccc65-866e-4c51-8caa-739ac652c76c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--primary",
+      "targets": [
+        ["css=.button--primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0239ac82-90a3-4c3b-ae90-88b9e2464431",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,488)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43baebeb-95fc-4d73-af06-f432642eca08",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "Rozelle Bay Maritime Service Centre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eabd1455-c2ad-48a8-9411-3ecdbc25797a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rozelle Bay Maritime Service Centre",
+      "targets": [
+        ["linkText=Rozelle Bay Maritime Service Centre", "linkText"],
+        ["css=.location:nth-child(3) > .location__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Rozelle Bay Maritime Service Centre')]", "xpath:link"],
+        ["xpath=//div[@id='locatorListView']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/service-centre/rozelle-bay-maritime-service-centre')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rozelle Bay Maritime Service Centre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d473a694-9b20-43b4-9e5f-ebb5809496a3",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "    Rozelle Bay Maritime Service Centre   ",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "221b878f-bf10-4446-8db7-3afc426ac3cc",
+    "name": "Sydney Domestic Airport 2020",
+    "commands": [{
+      "id": "7070e2c1-3c39-4a17-af9c-6619eb98ed0f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b25249e-bd0b-4a9d-8fc7-273bb45f642e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c84e5be9-65ea-458e-afc6-6f6bab59e052",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find locations",
+      "targets": [
+        ["linkText=Find locations", "linkText"],
+        ["css=.MainNav__list-peZtddYtxn > .NavLink__listItem-VYVwsaNaTG:nth-child(4) > .NavLink__link-M-HSy9SYcc", "css:finder"],
+        ["xpath=//a[contains(text(),'Find locations')]", "xpath:link"],
+        ["xpath=//div[@id='global-header']/div/header/div[2]/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.service.nsw.gov.au/service-centre')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c244b43-3765-4041-8c53-76d8b9507575",
+      "comment": "",
+      "command": "click",
+      "target": "id=locatorTextSearch",
+      "targets": [
+        ["id=locatorTextSearch", "id"],
+        ["css=#locatorTextSearch", "css:finder"],
+        ["xpath=//input[@id='locatorTextSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "282c5388-6fae-4b9d-a6ed-e1be65d74a2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,369.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39d8be9e-ac6d-47c9-b0bb-a9cdbc19f671",
+      "comment": "",
+      "command": "type",
+      "target": "id=locatorTextSearch",
+      "targets": [
+        ["id=locatorTextSearch", "id"],
+        ["css=#locatorTextSearch", "css:finder"],
+        ["xpath=//input[@id='locatorTextSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Sydney "
+    }, {
+      "id": "d8aa2010-8c90-48e1-b799-102b55f0d1f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=locatorTextSearch",
+      "targets": [
+        ["id=locatorTextSearch", "id"],
+        ["css=#locatorTextSearch", "css:finder"],
+        ["xpath=//input[@id='locatorTextSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Sydney domestic airport 2020"
+    }, {
+      "id": "7f2a1b00-31e2-430a-a1c2-2f6d1b181def",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--primary > svg",
+      "targets": [
+        ["css=.button--primary > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "104b9088-0dbe-4e88-ad3c-db72995c309c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rockdale Service Centre",
+      "targets": [
+        ["linkText=Rockdale Service Centre", "linkText"],
+        ["css=.location:nth-child(5) > .location__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Rockdale Service Centre')]", "xpath:link"],
+        ["xpath=//div[@id='locatorListView']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/service-centre/rockdale-service-centre')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rockdale Service Centre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc7b1564-7b55-44dd-b32f-bf6647bb9b17",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "Rockdale Service Centre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "240cedb5-e331-4aae-a607-1bcb80940f70",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,195.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab378dc4-51b2-4981-8c62-e49f0dc3ed57",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "    Rockdale Service Centre   ",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "061e2861-eeec-4a9b-b709-d43c00eacb24",
+    "name": "Test Suite Jojonomic",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39891e3c-e3d7-45ed-b590-805b3f85a530", "221b878f-bf10-4446-8db7-3afc426ac3cc"]
+  }],
+  "urls": ["https://www.service.nsw.gov.au/"],
+  "plugins": []
+}
