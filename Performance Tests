@@ -1,0 +1,7 @@
+1. Performance Tests Weather 10 times in a 1 minute duration
+    Result test from the weather 10 times, the average time is 414.7ms and get 1 times Error (connection timed out)
+    For the Size of data is around 9.03 - 9.05 KB 
+2. Performance Test Forecast 10 times in a 1 minute duration
+    Result test from the forecast 10 times, the average time is 1141.2 ms and get no error
+    For the Size of data is around 27.3 - 27.5 KB
+The forecast performance is a slower than Weather performance and the size data from forecast performance is a bigger than weather performance.
